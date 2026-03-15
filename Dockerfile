@@ -1,4 +1,4 @@
-FROM Ubuntu
+FROM ubuntu
 RUN apt-get update -y
 RUN apt-get install -y apache2
 COPY . /var/www/html
